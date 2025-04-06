@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background-home {
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+}
+
+.myprojecthome {
+    height: 37vh;
+    width: 60vw;
+    margin-left: 60px;
+}
+
+.homehead {
+    font-family: "bree serief";
+    font-size: 25px;
+    color: #183b56;
+    text-align: center;
+    font-weight: bold;
+}
+
+.homepara {
+    font-family: "bree serief";
+    font-size: 13px;
+    color: #183b56;
+    text-align: center;
+}
+
+.myprojectimgs {
+    height: 13vh;
+    width: 30vw;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.background {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-right: 1px;
+    text-align: center;
+}
+
+.carddd {
+    height: 28vh;
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-width: 5px;
+    padding: 5px;
+    margin-right: 1px;
+}
+
+.heading {
+    padding-top: 22px;
+    padding-left: 20px;
+    color: #5752ab;
+    font-family: Bree Serif;
+    font-size: 25px;
+    text-align: left;
+    margin-right: 1px;
+}
+
+.para {
+    padding-left: 20px;
+    color: #323f4b;
+    text-align: left;
+    font-family: "roboto";
+    margin-right: 1px;
+}
+
+.button {
+    background-color: white;
+    border-color: #d7dfe9;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 12px;
+    color: #171f46;
+    margin-right: 1px;
+}
+
+.button2 {
+    background-color: #171f46;
+    border-color: #d7dfe9;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 12px;
+    border-radius: 12px;
+    color: #ffffff;
+    margin-right: 1px;
+}
+
+.bkg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 1px;
+}
+
+.carddd {
+    height: 57vh;
+    background-color: #ffffff;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    padding: 1px;
+
+}
+
+.para1 {
+    color: #323f4b;
+    padding: 20px;
+    font-size: 12px;
+
+}
+
+.para2 {
+    color: #323f4b;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.p {
+    padding-left: 20px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.button {
+    margin-left: 20px;
+    margin-top: 4px;
+    background-color: #323f4b;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 130px;
+
+}
+
+.bkg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.carddd {
+    background-color: #000000e6;
+    margin: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: left;
+    border-radius: 20px;
+    height: 160px;
+    margin-bottom: 17px;
+}
+
+.heading {
+    font-family: Bree Serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.para {
+    font-family: "roboto";
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.para1 {
+    font-family: "roboto";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.button {
+    background-color: #ffffff;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    background-color: #f6c56e;
+    height: 230px;
+}
+
+.head {
+    font-family: Bree serif;
+    color: #323f4b;
+    text-align: left;
+    padding: 10px;
+}
+
+.para {
+    font-family: "roboto";
+    color: #323f4b;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+.button {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+    margin: 15px;
+
+}
