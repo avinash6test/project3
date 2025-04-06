@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="background-home">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="myprojecthome" />
+            <h1 class=" homehead text-capitalize">my project</h1>
+            <p class=" homepara text-capitalize">these are a few of my static website projects that have developed using HTML,CSS and bootstrap</p>
+            <div class="d-flex flex-column justify-content-satrt">
+                <div class="d-flex flex-row justify-column-start">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="myprojectimgs" onclick="display('sectiontech')" />
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png" class="myprojectimgs" onclick="display('sectionhotel')" />
+                </div>
+                <div class="d-flex flex-row justify-column-start">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="myprojectimgs" onclick="display('sectionfood')" />
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="myprojectimgs" onclick="display('sectionnews')" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiontech">
+        <div class="background d-flex flex-column justify-content-end">
+            <div class="carddd">
+                <h1 class="heading">Advances Technologies</h1>
+                <p class="para">Machinery and equipment developed from the application of scietific knowledge</p>
+                <button class="button">learn more</button>
+                <button class="button2" onclick="display('sectionhome')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionnews">
+        <div class="bkg d-flex flex-column justify-content-end">
+            <div class="carddd">
+                <h1 class="para1">NEWS OF THE DAY</h1>
+                <p class="para2">iB Cricket announces world's first
+                    Virtual Reality Cricket League</p>
+                <p class="p">iB cricket and together have announced the worlds first
+                    virtual reality cricket league featuring 12 internaional
+                    cricketers who will be competing against each other for the iB
+                    Cricket super league title is mumbai. Iconic cricketers like
+                    suresh raina and etc will becompeting in the league</p>
+                <button class="button" onclick="display('sectionhome')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionhotel">
+        <div class="bkg d-flex flex-column justify-content-end">
+            <div class="carddd">
+                <h1 class="heading">Royal Grand Hotel</h1>
+                <p class="para">RK Beach, Visakhapatnam</p>
+                <p1 class="para1">1200/-</p1>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="button" onclick="display('sectionhome')"> Back </button>
+            </div>
+        </div>
+        <div id="sectionfood">
+            <div class="bg d-flex flex-column justify-content-end">
+                <div class="card">
+                    <h1 class="head">Happy Meals</h1>
+                    <p class="para"> Discover the best foods over the 1,000 restaurants</p>
+                    <button class="button" onclick="display('sectionhome')"> Back </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
